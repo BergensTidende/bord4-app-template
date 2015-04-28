@@ -1,0 +1,156 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="prosjektnavnApp"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>prosjektnavn</title>
+  <meta name="description" content="prosjektnavn">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- build:css css/build.css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- endbuild -->
+
+   <meta name="fragment" content="!" />
+   <link rel="shortcut icon" href="http://www.bt.no//skins/publications/bt/gfx/icons/favicon.ico" />
+   <link rel="apple-touch-icon" href="http://www.bt.no//skins/publications/bt/gfx/icons/apple-touch-icon_57x57.png">
+   <link rel="apple-touch-icon" href="http://www.bt.no//skins/publications/bt/gfx/icons/apple-touch-icon_114x114.png" sizes="114x114">
+   <link rel="apple-touch-icon" href="http://www.bt.no//skins/publications/bt/gfx/icons/apple-touch-icon_72x72.png" sizes="72x72">
+   <!-- <script src="bower_components/modernizr/modernizr.js"></script>-->
+   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+   <!-- Twitter Card data -->
+   <meta name="twitter:card" content="summary">
+   <meta name="twitter:site" content="btno">
+   <meta name="twitter:title" content="prosjektnavn">
+   <meta name="twitter:description" content="prosjektnavn">
+   <meta name="twitter:creator" content="btno">
+   <!-- Twitter Summary card images must be at least 200x200px -->
+   <meta name="twitter:image" content="http://multimedia.bt.no/prosjektnavn/images/prosjektnavn.png">
+
+   <!-- Open Graph data -->
+   <meta property="og:title" content="prosjektnavn" />
+   <meta property="og:type" content="article" />
+   <meta property="og:url" content="http://multimedia.bt.no/prosjektnavn/" />
+   <meta property="og:image" content="http://multimedia.bt.no/prosjektnavn/images/prosjektnavn.png" />
+   <meta property="og:description" content="" />
+   <meta property="og:site_name" content="Bergens Tidende" />
+
+</head>
+<body>
+
+  <header class="bt-white-header" id="bt-header">
+    <a href="http://bt.no" class="logo icon-logo" title="Gå til BT.no"></a>
+    <a href="#main-menu" class="menu-toggle main-menu-button icon-menu"></a>
+  </header>
+
+
+  <!--  <nav id="section-menu" role="navigation" class="sliding-menu slide-left">
+      <div class="search-box">
+          <form action="http://www.bt.no/sok/" role="search" method="get" target="_top">
+              <input type="search" placeholder="Søk i BT" name="query">
+              <button type="submit">Søk</button>
+          </form>
+      </div>
+      <nav id="menu-content" class="menu-content">
+          <div class="loading-indicator"></div>
+          <ul>
+          	<li class="hasSubmenu">
+          		<a href="/btmagasinet/">BTMagasinet</a>
+          		<a href="#" class="deeper-link"></a>
+          		<ul class="submenu">
+          			<li>
+          				<a href="/btmagasinet/dennyevinen/">Den nye vinen</a>
+          			</li>
+          			<li>
+          				<a href="/btmagasinet/hobbykokken/">Hobbykokken</a>
+          			</li>
+          			<li>
+          				<a href="/btmagasinet/tendenser/">Tendenser</a>
+          			</li>
+          		</ul>
+          	</li>
+          	<li class="hasSubmenu"><a href="/bergenpuls/">
+              Bergenpuls
+              </a><a href="#" class="deeper-link"></a><ul class="submenu"><li><a href="http://bergenpuls.bt.no/">
+              Det skjer
+              </a></li><li><a href="http://www.meetv.no/overview">
+              TV-guide
+              </a></li><li><a href="http://utelivsguiden.bt.no/">
+              Utelivsguiden
+              </a></li></ul></li>
+              <li><a href="/folk/dodsfall/">
+              Dødsannonser
+              </a></li>
+          </ul>
+      </nav>
+  </nav> -->
+
+  <btads
+    adid="ad_1"
+    desktopUrl="http://adserver.adtech.de/addyn|3.0|995.1|3135379|0|1744|ADTECH;cookie=info;alias=btny_nyh_toppbanner_980x150;loc=100;target=_blank;key=key1+key2+key3+key4;grp=[group];misc="
+    mobileUrl="http://a.adtech.de/addyn/3.0/995.1/0/0/-1/ADTECH;loc=100;grp=[group];alias=BT_MobilWeb_Nyheter-Top-5;misc="
+    tableturl="http://adserver.adtech.de/addyn|3.0|995.1|3052574|0|3218|ADTECH;cookie=info;alias=Lesebrett_BT_Fors_Toppbanner_980x300;loc=100;target=_blank;key=key1+key2+key3+key4;grp=[group];misc=">
+  </btads>
+
+  <div class="container" ui-view>
+      <div id="loader">
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+      </div>
+  </div>
+
+    <div class="shareicons">
+      <a href="" target="_blank" class="share-facebook icon-facebook"></a>
+      <a href="" class="share-twitter icon-twitter"></a>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+
+  <script data-main="scripts/config" src="bower_components/requirejs/require.js"></script>
+
+  <script src="http://multimedia.bt.no/btmultimedia/prosjekt/libs/google-analytics.js"></script>
+
+
+<!--   <script id="paywallInitScript" src="http://www.bt.no/resources/js/mno/paywall/paywallInit.js?v=072c66797ef24754e403291026e78acdbb79d3f4"
+data-paywall-apiUrl="https://www.bt.no/resources/js/external/paywall/spid-sdk-pulse-1.7.6.min.js" data-paywall-clientId="50cf3a14421c7a895d000004"
+data-paywall-previewMode="false" data-paywall-prodCode="301376"
+data-paywall-prodMode="true" data-paywall-serverUri="payment.schibsted.no"
+data-paywall-refreshTimeout="60000" data-paywall-status="false"
+data-paywall-logging="false" data-paywall-timeout="15000" data-paywall-ipMode="false"></script> -->
+
+
+  <!-- TNS Universal -->
+  <script type="text/javascript" src="http://multimedia.bt.no/btmultimedia/prosjekt/libs/unispring.js"></script>
+  <script type='text/javascript'>
+    /* <![CDATA[ */
+
+     var u_tns =
+     {
+     's': 'mno',
+     'cp': 'mno/bt.no'+'/nyheter/multimedia/',
+     'url' : window.location.toString()
+     };
+     unispring.c(u_tns);
+
+     /* ]]> */
+   </script>
+   <noscript>
+   <img width="1" height="1" src="http://mno.tns-cs.net/j0=,,,;+,cp=mno/bt.no/nyheter/lokalt/+URL=noscript;;;" alt="" />
+   </noscript>
+
+  <!-- XITI -->
+  <script type="text/javascript"> xtnv = document; xtsd = "http://logc142"; xtsite = "413806"; xtn2 = "13"; xtpage = "prosjektnavn"; xtdi = ""; xtidmod = ""; </script>
+  <script type="text/javascript"src="http://www.bt.no/resources/js/mno/xiti/xtcore.js"></script>
+  <noscript> <img width="1" height="1" alt=""src="http://logc142.xiti.com/hit.xiti?s=413806&s2=13&p=prosjektnavn&di=&"></noscript>
+
+</body>
+</html>

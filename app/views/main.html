@@ -1,0 +1,49 @@
+ 	<div class="row">
+		<div class="col-xs-12">
+        <h1>Bord4s APP TEMPLATE</h1>
+        <p>Using {{ config.env }} environment with api-server url {{ config.apiserver }}</p>
+        <hr></hr>
+	        <h1>Heading 1</h1>
+          <h1><small>Smallhead</small></h1>
+	        <h2>Heading 2</h2>
+	        <h3>Heading 3</h3>
+	        <h4>Heading 4</h4>
+	        <h5>Heading 5</h5>
+          <h4 class="factboxtitle">FAKTA</h4>
+	        <p class="lead">This is lead text</p>
+	        <p>This is normal text body with <a href="#">a link</a></p>
+	    </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-6">
+      <h1>Sitat</h1>
+    		<blockquote>
+			  <p>Et bra sitat her som kommer fra en som mener mye om mangt</p>
+			  <footer>Ola Nordmann <cite title="Source Title">Kilde</cite></footer>
+			</blockquote>
+    	</div>
+       <div>
+       <h1>Store tall</h1>
+        <p class="bignumber">123</p>
+      </div>
+    </div>
+     <div class="row">
+    <div class="col-md-6" ng-hide="true">
+      <xstreamvideo videodata="playerdata" ></xstreamvideo>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-xs-12">
+      <h1>Tekstfarger</h1>
+        <p class="text-primary">text-primary</p>
+        <p class="text-info">text-info</p>
+        <p class="text-warning">text-warning</p>
+        <h1>Knapper</h1>
+        <p><button type="button" class="btn btn-primary">Primary button</button>
+        <button type="button" class="btn btn-info">Info button</button></p>
+      </div>
+    </div>
+    </div>
+    <section class="row">
+    <div class="col-md-12">Tallet 3 som tekst blir {{ anumber| numberastext:false}}.</div>
+    </section>

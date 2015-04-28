@@ -1,0 +1,13 @@
+node_modules
+dist
+.tmp
+.sass-cache
+app/bower_components
+app/css
+config/environments/dev.json
+
+mini/app/css/main.css
+
+app/css/main.css
+
+app/css/common/bt_bootstrap/bt_bootstrap.css

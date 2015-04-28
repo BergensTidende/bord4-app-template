@@ -1,0 +1,4 @@
+{
+  "env": "prod",
+  "apiserver": "http://www.bt.no/spesial/"
+}

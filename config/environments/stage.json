@@ -1,0 +1,4 @@
+{
+   "env": "stage",
+   "apiserver": "staging_server_url_here"
+}

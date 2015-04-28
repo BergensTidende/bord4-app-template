@@ -1,0 +1,63 @@
+@import "compass/css3/transform";
+
+#topad_container {
+	width: 100%;
+	padding: 0px;
+	height: auto;
+	box-sizing: border-box;
+}
+
+#ad_1 {
+	margin: 0 auto;
+	//max-width: 980px;
+}
+#ad_1 img, #ad_1 iframe, #ad_1 div.adform-adbox {
+	max-width: 100%;
+
+}
+
+#ad_1 iframe {
+	border: none;
+}
+
+.btad:before {
+	content: "Annonse \25bc";
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: grey;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-min) {
+
+	#topad_container {
+		padding: 10px;
+		max-width: 768px;
+		max-height: 250px;
+	}
+
+	#ad_1 img, #ad_1 iframe, #ad_1 div.adform-adbox {
+			max-width: auto;
+
+		}
+
+	#ad_1 {
+			width: 980px;
+			height:300px;
+			@include transform( scale(0.75) );
+			@include transform-origin( 0, 0 )
+	}
+
+
+
+}
+
+
+@media (min-width: $screen-md-min) { 
+
+	#ad_1 {
+		max-width: 980px;
+	}
+
+}

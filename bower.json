@@ -1,0 +1,27 @@
+{
+  "name": "prosjektnavn",
+  "version": "0.0.0",
+  "dependencies": {
+    "requirejs": "~2.1.4",
+    "requirejs-plugins": "~1.0.2",
+    "bootstrap-sass-official": "~3.1.1",
+    "angular": "1.3",
+    "angular-resource": "1.3",
+    "angular-cookies": "1.3",
+    "angular-sanitize": "1.3",
+    "angular-route": "1.3",
+    "angular-i18n": "~1.2.16",
+    "angular-bootstrap": "~0.11.0",
+    "angular-ui-router": "~0.2.10",
+    "angular-google-analytics": "~0.0.3",
+    "postscribe": "~1.3.2",
+    "mobile-detect": "~0.4.1",
+    "htmlparser": "~2.0.0",
+    "spid-sdk-js": "~1.7.8",
+    "fastclick": "~1.0.6",
+    "moment": "~2.9.0",
+    "lodash": "~3.2.0",
+    "jquery": "~2.1.3",
+    "bord4-styles": "git@github.com:BergensTidende/bord4-styles.git"
+  }
+}
