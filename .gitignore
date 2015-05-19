@@ -4,7 +4,6 @@ dist
 .sass-cache
 app/bower_components
 app/css
-config/environments/dev.json
 
 mini/app/css/main.css
 

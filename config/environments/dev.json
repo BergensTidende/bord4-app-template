@@ -1,0 +1,4 @@
+{
+    "env": "dev",
+    "apiserver": "localhost_server_url_here"
+}
